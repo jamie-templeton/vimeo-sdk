@@ -1,0 +1,90 @@
+html, body {
+  font-size: 1.0em;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 35px ;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.video-responsive{
+  position:relative;
+  top: 0;
+  left: 0;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  height:0;
+}
+
+.video-responsive iframe{
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  z-index: 10;
+  background: #000000;
+}
+
+/* VIDEO CONTROLS */
+.control-bar {
+  height: 28px;
+  padding:3px;
+  background-color: #ffd23f;
+  border: 1px solid #000000;
+}
+
+.play {
+  display: block;
+  font-size: 1em;
+  margin-right:4px ;
+  background-color: #000000;
+  border: none;
+  color: #3bceac;
+}
+
+.play:focus {
+  color: #3bceac;
+}
+
+.play:hover {
+  color: #ee4266;
+}
+
+.fwd {
+  display: block;
+  font-size: 1em;
+  margin-right:4px ;
+  background-color: #000000;
+  border: none;
+  color: #3bceac;
+}
+
+.fwd:focus {
+  color: #3bceac;
+}
+
+.fwd:hover {
+  color: #ee4266;
+}
+
+.sound {
+  display: block;
+  font-size: 1em;
+  margin-right:4px ;  
+  background-color: #000000; 
+  border: none;
+  color: #3bceac;
+} 
+
+.sound:focus {
+  color: #3bceac;
+}
+.sound:hover {
+  color: #ee4266;
+}
+
